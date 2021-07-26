@@ -1,0 +1,11 @@
+TextWindow.Write("Entre um valor: ")
+Tamanho = TextWindow.ReadNumber()
+For I = 1 To 2
+  Turtle.Move(Tamanho)
+  Turtle.Turn(125)
+  Turtle.Move(Tamanho)
+  Turtle.Turn(55)
+EndFor
+Turtle.Turn(-55)
+Turtle.Move(-Tamanho)
+Turtle.Turn(55)

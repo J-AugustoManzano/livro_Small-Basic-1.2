@@ -1,0 +1,8 @@
+Turtle.Move(60)
+Turtle.Turn(90)
+Turtle.Move(100)
+Turtle.Turn(90)
+Turtle.Move(60)
+Turtle.Turn(90)
+Turtle.Move(100)
+Turtle.Turn(90)

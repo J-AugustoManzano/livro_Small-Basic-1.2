@@ -1,0 +1,10 @@
+I = 1
+S = 0
+While (I <= 500)
+  R = Math.Remainder(i, 2)
+  If (R = 0) Then
+    S = S + I
+  EndIf
+  I = I + 1
+EndWhile
+TextWindow.WriteLine(S)

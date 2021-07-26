@@ -1,0 +1,22 @@
+TextWindow.Write("Entre valor <A>: ")
+A = TextWindow.ReadNumber()
+TextWindow.Write("Entre valor <B>: ")
+B = TextWindow.Read()
+TextWindow.Write("Entre valor <C>: ")
+C = TextWindow.Read()
+If (A > B) Then
+  X = A
+  A = B
+  B = X
+EndIf
+If (A > C) Then
+  X = A
+  A = C
+  C = X
+EndIf
+If (B > C) Then
+  X = B
+  B = C
+  C = X
+EndIf
+TextWindow.WriteLine("Os valores são: " + A + ", " + B + " e " + C)

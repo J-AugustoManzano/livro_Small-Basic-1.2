@@ -1,0 +1,4 @@
+TextWindow.Write("Entre graus Celsius: ")
+C = TextWindow.ReadNumber()
+F = C * 9 / 5 + 32
+TextWindow.WriteLine("Resultado em Fahrenheit = " + F)

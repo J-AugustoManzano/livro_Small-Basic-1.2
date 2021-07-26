@@ -1,0 +1,11 @@
+Sub Triangulo
+  For I = 1 To 3
+    Turtle.Move(70)
+    Turtle.Turn(120)
+  EndFor
+EndSub
+
+For J = 1 To 8
+  Triangulo()
+  Turtle.Turn(-45)
+EndFor

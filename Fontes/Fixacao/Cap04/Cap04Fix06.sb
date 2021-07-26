@@ -1,0 +1,5 @@
+S = 0
+For I = 1 To 100
+  S = S + I
+EndFor
+TextWindow.WriteLine(S)

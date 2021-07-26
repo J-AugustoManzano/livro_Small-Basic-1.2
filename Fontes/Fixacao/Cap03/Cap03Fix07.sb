@@ -1,0 +1,10 @@
+TextWindow.Write("Entre valor <A>: ")
+A = TextWindow.ReadNumber()
+TextWindow.Write("Entre valor <B>: ")
+B = TextWindow.Read()
+TextWindow.Write("Entre valor <C>: ")
+C = TextWindow.Read()
+R = A + B + C
+If (R >= 100) Then
+  TextWindow.WriteLine("Resultado = " + R)
+EndIf

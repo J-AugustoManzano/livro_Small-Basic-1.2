@@ -1,0 +1,7 @@
+S = 0
+I = 1
+While (I <= 100)
+  S = S + I
+  I = I + 1
+EndWhile
+TextWindow.WriteLine(S)

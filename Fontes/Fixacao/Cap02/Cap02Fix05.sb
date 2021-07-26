@@ -1,0 +1,6 @@
+TextWindow.Write("Entre um valor numérico para <A>: ")
+A = TextWindow.ReadNumber()
+TextWindow.Write("Entre um valor numérico para <B>: ")
+B = TextWindow.ReadNumber()
+R = Math.Power(A - B, 2)
+TextWindow.WriteLine("Resultado = " + R)

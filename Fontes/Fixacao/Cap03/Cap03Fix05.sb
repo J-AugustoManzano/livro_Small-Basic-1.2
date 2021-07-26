@@ -1,0 +1,9 @@
+TextWindow.Write("Entre valor <A>: ")
+A = TextWindow.ReadNumber()
+TextWindow.Write("Entre valor <B>: ")
+B = TextWindow.Read()
+If (A > B) Then
+  TextWindow.WriteLine("Resultado = " + (A - B))
+Else
+  TextWindow.WriteLine("Resultado = " + (B - A))
+EndIf

@@ -1,0 +1,6 @@
+For I = 1 To 19
+  R = Math.Remainder(i, 4)
+  If (R = 0) Then
+    TextWindow.WriteLine(I)
+  EndIf
+EndFor

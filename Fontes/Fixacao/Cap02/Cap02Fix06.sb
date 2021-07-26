@@ -1,0 +1,4 @@
+TextWindow.Write("Entre um valor numérico: ")
+N = TextWindow.ReadNumber()
+TextWindow.WriteLine("Sucessor ....: " + (N + 1))
+TextWindow.WriteLine("Antecessor ..: " + (N - 1))

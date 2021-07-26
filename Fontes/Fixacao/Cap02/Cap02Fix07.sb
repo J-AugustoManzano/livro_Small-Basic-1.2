@@ -1,0 +1,9 @@
+TextWindow.Write("Entre um valor <A>: ")
+A = TextWindow.Read()
+TextWindow.Write("Entre um valor <B>: ")
+B = TextWindow.Read()
+X = A
+A = B
+B = X
+TextWindow.WriteLine("<A> = " + A)
+TextWindow.WriteLine("<B> = " + B)

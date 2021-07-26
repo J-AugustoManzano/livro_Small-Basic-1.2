@@ -1,0 +1,4 @@
+TextWindow.Write("Entre um valor numérico inteiro: ")
+N = Math.Floor(TextWindow.ReadNumber())
+R = Math.Power(N, 3)
+TextWindow.WriteLine("Resultado = " + R)
