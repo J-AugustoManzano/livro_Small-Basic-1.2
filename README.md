@@ -1,3 +1,3 @@
-# Livro: Progr. de computadores para iniciantes com Small Basic
+# Livro: Programação de computadores para iniciantes com Small Basic
 
 O livro encontra-se dividido em cinco capítulos, mais alguns apêndices complementares que abor-dam diversas características de uso da linguagem, onde praticamente todos os capítulos, exceto o primeiro possuem como reforço um conjunto de exercícios de fixação. São fornecidas orientações desde a obtenção e instalação da fermenta de trabalho a apresentação de diversas ações que podem ser produzidas com a linguagem, como: sub-rotinas; operadores aritméticos, lógicos e re-lacionais; ações de entrada e saída; decisões; recursividades; simulação de uso de variáveis locais e passagem de parâmetro, entre outros. São demonstradas ações que produzem formas geométri-cas a partir do uso do objeto Turtle, bem como a demonstração de outros objetos da linguagem como: Array, Text, Math, entre outros.
